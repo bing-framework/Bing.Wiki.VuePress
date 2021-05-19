@@ -1,0 +1,25 @@
+{
+  "name": "Bing.Wiki.VuePress",
+  "version": "1.0.0",
+  "description": "Bing Docs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "https://github.com/bing-framework/Bing.Wiki.VuePress.git",
+  "author": "jian玄冰",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bing-framework/Bing.NetCore/issues"
+  },
+  "homepage": "https://github.com/bing-framework/Bing.NetCore#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.8"
+  },
+  "dependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.8",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.8",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.8"
+  }
+}
